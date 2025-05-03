@@ -8,7 +8,7 @@ import confetti from 'canvas-confetti';
 import { Link } from 'react-router-dom';  
 function App() {
   const generateShuffledCards = () => {
-    const values = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6];
+    const values = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6,7,7,8,8];
     for (let i = values.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [values[i], values[j]] = [values[j], values[i]];
