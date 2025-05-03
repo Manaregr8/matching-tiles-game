@@ -1,0 +1,27 @@
+/* Leaderboard.css */
+.leaderboard-container {
+    text-align: center;
+  }
+  
+  .leaderboard-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 60%;
+    max-width: 600px;
+  }
+  
+  .leaderboard-table th,
+  .leaderboard-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+
+  .leaderboard-table th {
+    background-color: rgb(21, 0, 58);;
+    font-weight: bold;
+  }
+  
+  .leaderboard-table tr:nth-child(even) {
+    background-color: #100a25;
+  }
+  

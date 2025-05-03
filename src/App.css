@@ -24,6 +24,7 @@ user-select: none;
   position:relative; 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
 }
 .centeralize{
   width: 100%;
@@ -33,4 +34,90 @@ user-select: none;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}.winner-form {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.winner-form input {
+  margin-bottom: 20px;
+  padding: 6px;
+  width: 300px;
+  font-size: 23px;
+}
+
+.winner-form button {
+  padding: 6px 12px;
+  background: #4caf50;
+  color: white;
+  width: 300px;
+  border: none;
+  font-size: 23px;
+  cursor: pointer;
+}
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 20px;
+  align-items: center;
+}
+.scoreheading{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.moves{
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #3399ff;
+
+}
+.score{
+  font-size: 23px;
+}
+@media(max-width:573px){
+  .moves{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #3399ff;
+  
+  }
+  .score{
+    font-size: 18px;
+  }
+}
+@media(max-width:466px){
+  .box {
+    height: 80px;
+    width: 80px;
+  
+  }
+  
+  .main {
+    margin: 5px;
+    height: 380px;
+    width: 300px;  
+    position:relative; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+  }
+  .moves{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #3399ff;
+  
+  }
+  .score{
+    font-size: 15px;
+  }
 }
